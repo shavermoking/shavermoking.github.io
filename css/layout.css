@@ -193,6 +193,40 @@ h4 {
 /*------------------------------------------------------------------
   	[Button]
 ------------------------------------------------------------------*/
+
+
+.container {
+  overflow: hidden;
+}
+
+.filterDiv {
+  margin: 2px;
+}
+
+/* В класс "show" добавляется к отфильтрованные элементы */
+.show {
+  display: block;
+}
+
+/* Стиль кнопок */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Добавить светло-серый фон на наведении курсора мыши */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Добавить темный фон для активной кнопки */
+.btn.active {
+  background-color: #666;
+  color: white;
+}
 .btn-theme {
   position: relative;
   display: inline-block;
@@ -989,7 +1023,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .carousel-description {
-  font-size: 30px;
+  font-size: 50px;
   color: orangered;
   -webkit-text-stroke: 1px black;
 }
@@ -1221,6 +1255,10 @@ fieldset[disabled] .btn-theme {
 
 .bg-color-sky-light {
   background: #fafafa;
+}
+
+.about-text {
+  font-size: 20px;
 }
 
 /*------------------------------------------------------------------
@@ -1566,4 +1604,28 @@ fieldset[disabled] .btn-theme {
 
 .height-400 {
   height: 400px !important;
+}
+
+.catalog-button {
+  width: 500px;
+  height: 100px;
+  margin: 0 auto;
+  border: 1px black solid;
+  background-color: #515769;
+}
+
+.catalog-link {
+  display: block;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 30px;
+  color: orangered;
+  font-weight: 700;
+}
+
+.sort {
+  height: 200px;
+  width: 1000px;
+  border: 1px black solid;
+  
 }
