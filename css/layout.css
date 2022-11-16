@@ -1629,3 +1629,7 @@ fieldset[disabled] .btn-theme {
   border: 1px black solid;
   
 }
+
+.prod {
+	visibility:hidden;
+}
