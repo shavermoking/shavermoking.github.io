@@ -126,6 +126,11 @@ h4 {
   font-size: 22px;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+}
+
 ::selection {
   color: #fff;
   background: orangered;
